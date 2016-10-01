@@ -10,6 +10,10 @@ Batch file parallel execution command for Windows.
 
 全てのスレッドがキューから実行ファイルパスを読み出せなくなったら終了となります。 
 
+# Pararun.exeのコンパイル
+make.batを用意したので、VisualStudioが無くても.NET Frameworkを導入していればコンパイルできます。たぶん。
+
+
 # オプション等説明
     H:\JOB>pararun
     pararun [-ut] [-nr] -qs count folder [folder ...] [-qf count folder [folder ...]] [-qh count folder [folder ...]]
